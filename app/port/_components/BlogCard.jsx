@@ -19,7 +19,7 @@ const cards = [
     description: "Build secure login systems using JWT, Bcrypt, and MySQL in Express apps.",
     author: "Gautam Mahato",
     date: "Nov 4 2024",
-    url: "",
+    url: "https://dev.to/gautam_kumar_d3daad738680/secure-user-authentication-api-with-express-jwt-bcrypt-and-mysql-16aj",
 },
   {
     image: dom,
@@ -28,7 +28,7 @@ const cards = [
     description: "Learn how the browser represents and interacts with your HTML document.",
     author: "Gautam Mahato",
     date: "Jan 27 2025",
-    url: "",
+    url: "https://dev.to/gautam_kumar_d3daad738680/understanding-the-dom-tree-a-beginners-guide-to-understanding-web-page-structure-2ncd",
 },
 {
   image: cache,
@@ -37,7 +37,7 @@ const cards = [
   description: "Explore key caching strategies for faster and more efficient applications.",
   author: "Gautam Mahato",
   date: "Mar 6 2025",
-  url: "",
+  url: "https://dev.to/gautam_kumar_d3daad738680/caching-techniques-explained-how-to-speed-up-data-retrieval-efficiently-2bek",
 },
 {
     image: rrf,
@@ -46,7 +46,7 @@ const cards = [
     description: "Improve ranking performance by combining multiple retrieval systems effectively.",
     author: "Gautam Mahato",
     date: "Apr 23 2025",
-    url: "",
+    url: "https://advance-rag.hashnode.dev/reciprocal-rank-fusion-rrf",
 },
 {
     image: step,
@@ -55,7 +55,7 @@ const cards = [
     description: "Enhance LLM reasoning by using high-level abstraction prompts.",
     author: "Gautam Mahato",
     date: "Apr 24 2025",
-    url: "",
+    url: "https://advance-rag.hashnode.dev/step-back-prompting-in-rag-how-thinking-bigger-leads-to-smarter-ai-answers",
 },
 {
     image: cot,
@@ -64,7 +64,7 @@ const cards = [
     description: "Leverage CoT prompting to improve logical reasoning in AI outputs.",
     author: "Gautam Mahato",
     date: "Apr 25 2025",
-    url: "",
+    url: "https://advance-rag.hashnode.dev/understanding-chain-of-thought-cot-prompting-teaching-ai-to-think-step-by-step",
 },
 
 ];
@@ -93,7 +93,7 @@ function Card({ image, tags, title, description, author, date, url }) {
         ))}
       </div>
 
-      <Link href={url}>
+      <Link href={url} target="_blank">
         <h2 className="text-lg font-semibold mt-2">{title}</h2>
       </Link>
       <p className="text-sm text-neutral-500 mt-1 line-clamp-3">{description}</p>

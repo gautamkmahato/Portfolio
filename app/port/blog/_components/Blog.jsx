@@ -2,10 +2,11 @@ import Image from "next/image";
 import { Bookmark } from "lucide-react";
 import avatar from "../../../../public/gkm.jpg";
 import blogs from '../../../data/blogs'
+import Link from "next/link";
 
 
 
-function Card({ image, tags, title, description, author, date }) {
+function Card({ image, tags, title, description, author, date, url }) {
   return (
     <div className="bg-white rounded-xl shadow-md border border-neutral-200 p-4 w-full transition hover:shadow-md">
       <div className="rounded-lg overflow-hidden w-full h-48 relative">
@@ -25,10 +26,12 @@ function Card({ image, tags, title, description, author, date }) {
           >
             {tag}
           </span>
-        ))}
+        ))} 
       </div>
 
-      <h2 className="text-lg font-semibold mt-2">{title}</h2>
+      <Link href={url} target="_blank">
+        <h2 className="text-lg font-semibold mt-2">{title}</h2>
+      </Link>
       <p className="text-sm text-neutral-500 mt-1 line-clamp-3">{description}</p>
 
       <div className="mt-4 flex items-center justify-between text-sm text-neutral-600">

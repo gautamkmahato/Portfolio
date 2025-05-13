@@ -6,7 +6,7 @@ const cards = [
         description: "Build secure login systems using JWT, Bcrypt, and MySQL in Express apps.",
         author: "Gautam Mahato",
         date: "Nov 4 2024",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/secure-user-authentication-api-with-express-jwt-bcrypt-and-mysql-16aj",
     },
     {
         image: "/blogs/express-validator.jpg",
@@ -15,7 +15,7 @@ const cards = [
         description: "Learn to validate user input effectively using express-validator middleware.",
         author: "Gautam Mahato",
         date: "Nov 10 2024",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/how-to-use-express-validator-as-a-middleware-in-express-app-3mb4",
     },
     {
         image: "/blogs/exception.jpg",
@@ -24,7 +24,7 @@ const cards = [
         description: "Use the Result Pattern for safer, cleaner, and more predictable error handling.",
         author: "Gautam Mahato",
         date: "Nov 22 2024",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/goodbye-exceptions-mastering-error-handling-in-javascript-with-the-result-pattern-26kb",
     },
     {
         image: "/blogs/copy.jpg",
@@ -33,7 +33,7 @@ const cards = [
         description: "Understand the key differences between shallow and deep copy techniques.",
         author: "Gautam Mahato",
         date: "Nov 23 2024",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/shallow-copy-vs-deep-copy-in-javascript-3efn",
     },
     {
         image: "/blogs/callback.jpg",
@@ -42,7 +42,7 @@ const cards = [
         description: "A comprehensive guide to how JavaScript manages tasks and async behavior.",
         author: "Gautam Mahato",
         date: "Jan 11 2025",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/understanding-call-stack-callback-queue-event-loop-and-microtask-queue-in-javascript-2c7n",
     },
     {
         image: "/blogs/script.jpg",
@@ -51,7 +51,7 @@ const cards = [
         description: "Master the usage of script tags to optimize JavaScript loading and execution.",
         author: "Gautam Mahato",
         date: "Jan 21 2025",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/4-effective-ways-to-use-the-tag-in-html-for-better-web-development-fg9",
     },
     {
         image: "/blogs/hoisting.jpg",
@@ -60,7 +60,7 @@ const cards = [
         description: "Gain a deep understanding of how JavaScript hoists different declarations.",
         author: "Gautam Mahato",
         date: "Jan 22 2025",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/javascript-hoisting-explained-in-details-var-let-const-and-functions-3eim",
     },
     {
         image: "/blogs/execute.jpg",
@@ -69,7 +69,7 @@ const cards = [
         description: "Follow the lifecycle of JavaScript code execution from top to bottom.",
         author: "Gautam Mahato",
         date: "Jan 26 2025",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/how-javascript-executes-code-a-step-by-step-breakdown-of-program-execution-46j",
     },
     {
         image: "/blogs/dom.jpg",
@@ -78,7 +78,7 @@ const cards = [
         description: "Learn how the browser represents and interacts with your HTML document.",
         author: "Gautam Mahato",
         date: "Jan 27 2025",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/understanding-the-dom-tree-a-beginners-guide-to-understanding-web-page-structure-2ncd",
     },
     {
         image: "/blogs/cache.jpg",
@@ -87,7 +87,7 @@ const cards = [
         description: "Explore key caching strategies for faster and more efficient applications.",
         author: "Gautam Mahato",
         date: "Mar 6 2025",
-        url: "",
+        url: "https://dev.to/gautam_kumar_d3daad738680/caching-techniques-explained-how-to-speed-up-data-retrieval-efficiently-2bek",
     },
     {
         image: "/blogs/fan.png",
@@ -96,7 +96,7 @@ const cards = [
         description: "Speed up and scale retrieval-augmented generation with a fan-out approach.",
         author: "Gautam Mahato",
         date: "Apr 23 2025",
-        url: "",
+        url: "https://advance-rag.hashnode.dev/parallel-fan-out-retrieval-system-using-langchain-and-vector-databases",
     },
     {
         image: "/blogs/rrf.jpg",
@@ -105,7 +105,7 @@ const cards = [
         description: "Improve ranking performance by combining multiple retrieval systems effectively.",
         author: "Gautam Mahato",
         date: "Apr 23 2025",
-        url: "",
+        url: "https://advance-rag.hashnode.dev/reciprocal-rank-fusion-rrf",
     },
     {
         image: "/blogs/step.png",
@@ -114,7 +114,7 @@ const cards = [
         description: "Enhance LLM reasoning by using high-level abstraction prompts.",
         author: "Gautam Mahato",
         date: "Apr 23 2025",
-        url: "",
+        url: "https://advance-rag.hashnode.dev/step-back-prompting-in-rag-how-thinking-bigger-leads-to-smarter-ai-answers",
     },
     {
         image: "/blogs/cot.jpg",
@@ -123,7 +123,7 @@ const cards = [
         description: "Leverage CoT prompting to improve logical reasoning in AI outputs.",
         author: "Gautam Mahato",
         date: "Apr 23 2025",
-        url: "",
+        url: "https://advance-rag.hashnode.dev/understanding-chain-of-thought-cot-prompting-teaching-ai-to-think-step-by-step",
     },
     {
         image: "/blogs/hyde.jpg",
@@ -132,7 +132,16 @@ const cards = [
         description: "Use HyDE to simulate relevant documents and boost retrieval quality in RAG.",
         author: "Gautam Mahato",
         date: "Apr 23 2025",
-        url: "",
+        url: "https://advance-rag.hashnode.dev/learn-the-implementation-of-hypothetical-document-embeddings-hyde-in-rag-application",
+    },
+    {
+        image: "/blogs/hyde.jpg",
+        tags: ["LLM", "Tokenization", "Embeddings"],
+        title: "Understanding Tokenization, Embeddings, and the Full LLM Pipeline (Beginner-Friendly Guide)",
+        description: "Large Language Models (LLMs) like ChatGPT may seem like magic, but they work through a very structured",
+        author: "Gautam Mahato",
+        date: "Apr 09 2025",
+        url: "https://sample-blog-gkm.hashnode.dev/understanding-tokenization-embeddings-and-the-full-llm-pipeline-beginner-friendly-guide",
     },
 ]
 
