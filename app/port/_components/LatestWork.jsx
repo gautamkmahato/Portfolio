@@ -6,6 +6,26 @@ import Link from "next/link";
 
 const projects = [
     {
+        title: "Hirenom",
+        period: "June 2025",
+        description: "Hirenom is an AI-powered voice mock interview platform that simulates real-time interviews from job descriptions with smart reports for recruiters.",
+        image: "/gifs/hirenom.gif",
+        tags: [
+            "Next.js",
+            "Typescript",
+            "PostgreSQL",
+            "Langchain",
+            "TailwindCSS",
+            "Razorpay",
+            "Clerk",
+        ],
+        links: [
+            { label: "Website", icon: Globe, url: "https://hirenom.com/" },
+            { label: "Source", icon: Github, url: "/" },
+        ],
+        color: "bg-indigo-700",
+    },
+    {
         title: "Email Craft",
         period: "February 2025",
         description: "EmailCraft is an AI-powered email template generator and automation service for seamless email campaigns.",
@@ -44,7 +64,7 @@ const projects = [
             { label: "Website", icon: Globe, url: "https://vaani-wave.vercel.app/" },
             { label: "Source", icon: Github, url: "/" },
         ],
-        color: "bg-blue-700",
+        color: "bg-blue-950",
     },
     {
         title: "Weaver AI",
